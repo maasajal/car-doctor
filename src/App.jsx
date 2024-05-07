@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="font-inter">
       <Navbar />
-      <Outlet />
+      <div className="max-w-7xl mx-auto px-3 md:px-8">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
