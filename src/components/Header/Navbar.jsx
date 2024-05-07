@@ -6,13 +6,13 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li key="home">
-        <NavLink to="/">home</NavLink>
+        <a href="/">home</a>
       </li>
       <li key="about">
-        <NavLink to="/about">about</NavLink>
+        <a href="#about">about</a>
       </li>
       <li key="services">
-        <NavLink to="/services">services</NavLink>
+        <a href="#services">services</a>
       </li>
       <li key="blog">
         <NavLink to="/blog">blog</NavLink>
